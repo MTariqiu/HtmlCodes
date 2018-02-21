@@ -1,0 +1,74 @@
+-------------HTML Computer Code Elements--------------------
+? PreviousNext ?
+Computer Code
+<code>
+x = 5;<br>
+y = 6;<br>
+z = x + y;
+</code>
+Try it Yourself »
+HTML <kbd> For Keyboard Input
+The HTML <kbd> element represents user input, like keyboard input or voice commands.
+
+Text surrounded by <kbd> tags is typically displayed in the browser's default monospace font:
+
+Example
+<p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
+Result:
+
+Save the document by pressing Ctrl + S
+Try it Yourself »
+HTML <samp> For Program Output
+The HTML <samp> element represents output from a program or computing system.
+
+Text surrounded by <samp> tags is typically displayed in the browser's default monospace font:
+
+Example
+<p>If you input wrong value, the program will return <samp>Error!</samp></p>
+Result:
+
+If you input wrong value, the program will return Error!
+Try it Yourself »
+HTML <code> For Computer Code
+The HTML <code> element defines a fragment of computer code.
+
+Text surrounded by <code> tags is typically displayed in the browser's default monospace font: 
+
+Example
+<code>
+x = 5;
+y = 6;
+z = x + y;
+</code>
+Result:
+
+x = 5; y = 6; z = x + y;
+Try it Yourself »
+Notice that the <code> element does not preserve extra whitespace and line-breaks.
+
+To fix this, you can put the <code> element inside a <pre> element:
+
+Example
+<pre>
+<code>
+x = 5;
+y = 6;
+z = x + y;
+</code>
+</pre>
+Result:
+
+ x = 5;
+y = 6;
+z = x + y;
+Try it Yourself »
+HTML <var> For Variables
+The HTML <var> element defines a variable.
+
+The variable could be a variable in a mathematical expression or a variable in programming context:
+
+Example
+Einstein wrote: <var>E</var> = <var>mc</var><sup>2</sup>.
+Result:
+
+Einstein wrote: E = mc2.

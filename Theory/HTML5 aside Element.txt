@@ -1,0 +1,10 @@
+---------------HTML5 <figure> and <figcaption> Elements---------------
+The purpose of a figure caption is to add a visual explanation to an image.
+
+In HTML5, an image and a caption can be grouped together in a <figure> element:
+
+Example
+<figure>
+  <img src="pic_mountain.jpg" alt="The Pulpit Rock" width="304" height="228">
+  <figcaption>Fig1. - The Pulpit Rock, Norway.</figcaption>
+</figure>

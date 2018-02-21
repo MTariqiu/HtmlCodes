@@ -1,0 +1,12 @@
+--------------------HTML5 <section> Element--------------------
+The <section> element defines a section in a document.
+
+According to W3C's HTML5 documentation: "A section is a thematic grouping of content, typically with a heading."
+
+A home page could normally be split into sections for introduction, content, and contact information.
+
+Example
+<section>
+  <h1>WWF</h1>
+  <p>The World Wide Fund for Nature (WWF) is....</p>
+</section>
